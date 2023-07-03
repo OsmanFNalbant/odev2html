@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+       position:absolute;
+       padding-left: 40%;
+       margin-top: 8px;
+       margin-bottom: 2px;
+    }
+    .body{
+       padding-left: 4%;
+       padding-top: 8% ;
+    }
+    section {
+    width: 90%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 2px;
+}
+.section-div {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 1px;
+}
+section input[type="text"] {
+    width: 309px;
+    padding: 1px 2px;
+}
+
+section input[type="submit"] {
+    /* width: 312px; */
+    padding: 1px 6px;
+}
+.footer-div{
+     text-align: center;
+     margin-top: 0%;
+}
+.column {
+  float: left;
+  height: 125px;
+  margin-right: 2px;
+  text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+    <div class="header">
+    <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" class="img"><img></div>
+    <div class="body">
+         <section>
+       <div class="section-div">
+        <p>Search the web using Google! </p>
+        <input type="text" name="search-text" value="">
+        <br>
+        <input type="submit" name="search-btn" value="Google Search">
+        <input type="submit" name="search-lucky" value="I'm feeling lucky">
+       </div> 
+    </section>
+    </div>
+    <div class="row" style="margin-left: 8.75%; margin-right: 4.25%;">
+  <div class="column" style="background-color: aquamarine;  width: 35%;"><p style="padding-top: 20px;"><a href=>Special Seracher</a><br>
+    <a href=>Standford Serach</a><br><a href=>Linux Serach</a></p></div>
+  <div class="column" style="background-color: aquamarine;  width: 20%;"><p style="padding-top: 12px;"><a href=>Help</a><br>
+    <a href=>About Google</a><br><a href=>Company Info</a><br><a href=>Google Logos</a></p></div>
+  <div class="column" style="background-color: aquamarine;  width: 44%;"><p>Get Google!<br>
+    Updates Monthly<div class="footer-div">
+        <input type="text" name="search-text" value="">
+        <br>
+        <input type="submit" name="search-btn" value="Subscribe" style="margin-right: 10px;">
+        <a href>Archive</a></p>
+       </div></div>
+</div>
+</body>
+</html>
